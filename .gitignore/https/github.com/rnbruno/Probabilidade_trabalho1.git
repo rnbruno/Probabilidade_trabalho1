@@ -1,0 +1,32 @@
+## Unidade 01 - Avaliação 01
+
+- **Aluno**: Bruno Silvino Matias
+- **Matrícula**: 2015034260
+
+<br>
+<div class="alert alert-info">
+<b>Trabalho 1º Unidade</b>
+</div>
+
+# Importar as bibliotecas necessárias
+import pandas as pd
+
+# Atribuir o nome da planilha para a variável "arquivo"
+arquivo = 'imd_notas.xlsx'
+
+# Carregar a base de dados para um objeto pandas.io.excel.ExcelFile
+excel = pd.ExcelFile(arquivo)
+
+# Imprimir o nome das planilhas
+print(excel.sheet_names)
+
+# Carregar a planilha excel para um objeto dataframe
+dados = excel.parse(0)
+
+# Imprimir as cinco primeiras linhas do dataframe
+dados.head(7)
+
+<h1> 1) Quantas vezes um aluno precisa fazer uma determinada disciplina para ter aprovação?</h1>
+
+<h3> a) Investigando a base de dados </h3>
+<h3> b) Geral (considerando as 7 disciplinas)?</h3>
