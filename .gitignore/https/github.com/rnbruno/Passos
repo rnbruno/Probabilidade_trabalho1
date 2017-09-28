@@ -1,3 +1,6 @@
-1)
+1)Quantas vezes um aluno precisa fazer uma determinada disicplina para ter aprovação?
+a) Por disciplina?
+b) Geral (considerando as 7 disciplinas)?
+
 Aluno - eles são iguais para disciplinas diferentes = função que colocar todos na mesma linha;
 dados["a_ID"].unique() - view each element
