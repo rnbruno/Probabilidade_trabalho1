@@ -18,3 +18,7 @@ print(df2)
 
 #Aluno - disciplinas - status da disciplina - nota
 dados.pivot_table(index=["a_ID", "disciplina_ID", "status.disciplina"], values="nota", aggfunc=np.mean)
+
+https://pandas.pydata.org/pandas-docs/stable/api.html
+
+https://www.vooo.pro/insights/12-tecnicas-pandas-uteis-em-python-para-manipulacao-de-dados/
