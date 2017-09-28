@@ -16,3 +16,5 @@ Determinar a porcentagem!?
 df2 = dados.groupby('a_ID')["nota"].transform(np.sum)
 print(df2)
 
+#Aluno - disciplinas - status da disciplina - nota
+dados.pivot_table(index=["a_ID", "disciplina_ID", "status.disciplina"], values="nota", aggfunc=np.mean)
