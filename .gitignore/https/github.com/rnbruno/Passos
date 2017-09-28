@@ -4,3 +4,7 @@ b) Geral (considerando as 7 disciplinas)?
 
 Aluno - eles são iguais para disciplinas diferentes = função que colocar todos na mesma linha;
 dados["a_ID"].unique() - view each element
+
+verificar cada disciplina a quantidade de reprovações
+verificar a aporvação - se tiver duas aprovações eliminar uma 
+Determinar a porcentagem!?
